@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TeamBalancerApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Login -->
+    <string name="tv_welcome">Welcome.</string>
+    <string name="tv_glad">Glad to see you!</string>
+    <string name="ph_email"></string>
+    <string name="ph_password"></string>
+    <string name="btn_login">Login</string>
+    <string name="tv_sign_up">Dont have an account? </string>
+    <string name="btn_sign_up">Signup</string>
+
+    <!-- Sign Up -->
+    <string name="tv_create_account">Create account</string>
+    <string name="tv_already_account">Already have an account! </string>
+</resources>
