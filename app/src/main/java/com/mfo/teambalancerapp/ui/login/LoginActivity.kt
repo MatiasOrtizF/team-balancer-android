@@ -11,6 +11,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import com.mfo.teambalancerapp.databinding.ActivityLoginBinding
 import com.mfo.teambalancerapp.domain.model.LoginRequest
+import com.mfo.teambalancerapp.ui.home.HomeActivity
 import com.mfo.teambalancerapp.ui.signup.SignUpActivity
 import com.mfo.teambalancerapp.utils.PreferencesHelper
 import com.mfo.teambalancerapp.utils.PreferencesHelper.set

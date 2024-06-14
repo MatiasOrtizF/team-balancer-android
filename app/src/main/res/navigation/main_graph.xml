@@ -3,16 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_graph"
-    app:startDestination="@id/id_login_activity">
+    app:startDestination="@id/teamFragment">
 
-    <activity
-        android:id="@+id/id_login_activity"
-        android:name="com.mfo.teambalancerapp.ui.login.LoginActivity"
-        android:label="Login"
-        tools:layout="@layout/activity_login" />
     <fragment
-        android:id="@+id/id_home_fragment"
-        android:name="com.mfo.teambalancerapp.ui.home.HomeFragment"
-        android:label="Home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/teamFragment"
+        android:name="com.mfo.teambalancerapp.ui.team.TeamFragment"
+        android:label="fragment_team"
+        tools:layout="@layout/fragment_team" />
+    <fragment
+        android:id="@+id/playerFragment"
+        android:name="com.mfo.teambalancerapp.ui.player.PlayerFragment"
+        android:label="fragment_player"
+        tools:layout="@layout/fragment_player" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.mfo.teambalancerapp.ui.account.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
 </navigation>

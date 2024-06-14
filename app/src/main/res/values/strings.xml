@@ -15,4 +15,10 @@
     <!-- Sign Up -->
     <string name="tv_create_account">Create account</string>
     <string name="tv_already_account">Already have an account! </string>
+
+    <!-- Bottom bar -->
+    <string name="team">Team</string>
+    <string name="player">Player</string>
+    <string name="config">Config</string>
+
 </resources>

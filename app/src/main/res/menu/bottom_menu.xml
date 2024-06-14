@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/teamFragment"
+        android:title="@string/team"
+        android:icon="@drawable/ic_team"/>
+    <item
+        android:id="@+id/playerFragment"
+        android:title="@string/player"
+        android:icon="@drawable/ic_player"/>
+    <item
+        android:id="@+id/accountFragment"
+        android:title="@string/config"
+        android:icon="@drawable/ic_config"/>
+</menu>
